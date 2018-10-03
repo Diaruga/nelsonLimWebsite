@@ -1,0 +1,109 @@
+/**
+ * Stylesheet that implements free IcoMoon font
+ * http://keyamoon.com/icomoon/#toHome
+ *
+ * Autor Yordan Ivanov
+ * yordan.t.ivanov@gmail.com
+ */
+
+@font-face {
+    font-family: 'IcoMoonRegular';
+    src: url('fonts/icomoon/icomoon-webfont.eot');
+    src: url('fonts/icomoon/icomoon-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fonts/icomoon/icomoon-webfont.woff') format('woff'),
+         url('fonts/icomoon/icomoon-webfont.ttf') format('truetype'),
+         url('fonts/icomoon/icomoon-webfont.svg#') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+.icomoon { font-face: 'IcoMoonRegular'; }
+
+.icomoon.home:before { content: '!'; }
+.icomoon.pencil:before { content: '\22'; }
+.icomoon.picture:before { content: '#'; }
+.icomoon.music:before { content: '$'; }
+.icomoon.video:before { content: '%'; }
+.icomoon.cart:before { content: '&'; }
+.icomoon.support:before { content: '\27'; }
+.icomoon.mail:before { content: '('; }
+.icomoon.comment:before { content: ')'; }
+.icomoon.Uuser:before { content: '*'; }
+.icomoon.busy:before { content: '+'; }
+.icomoon.search:before { content: ','; }
+.icomoon.key:before { content: '-'; }
+.icomoon.gear:before { content: '.'; }
+.icomoon.gift:before { content: '/'; }
+.icomoon.cup:before { content: '0'; }
+.icomoon.trashcan:before { content: '1'; }
+.icomoon.download:before { content: '2'; }
+.icomoon.upload:before { content: '3'; }
+.icomoon.link:before { content: '4'; }
+.icomoon.eye:before { content: '5'; }
+.icomoon.star-empty:before { content: '6'; }
+.icomoon.star-half:before { content: '7'; }
+.icomoon.star-full:before { content: '8'; }
+.icomoon.geart-empty:before { content: '9'; }
+.icomoon.heart-full:before { content: ':'; }
+.icomoon.thumbs:before { content: '; }'; }
+.icomoon.thumbs:before { content: '<'; }
+.icomoon.unfo:before { content: '='; }
+.icomoon.checkmark:before { content: '>'; }
+.icomoon.cancel:before { content: '?'; }
+.icomoon.synchronize:before { content: '@'; }
+.icomoon.outside:before { content: 'A'; }
+.icomoon.gplus:before { content: 'B'; }
+.icomoon.gplus-2:before { content: 'C'; }
+.icomoon.gplus-3:before { content: 'D'; }
+.icomoon.facebook:before { content: 'E'; }
+.icomoon.facebook-2:before { content: 'F'; }
+.icomoon.twitter:before { content: 'G'; }
+.icomoon.twitter-2:before { content: 'H'; }
+.icomoon.twitter-3:before { content: 'I'; }
+.icomoon.twitter-4:before { content: 'J'; }
+.icomoon.feed:before { content: 'K'; }
+.icomoon.feed-2:before { content: 'L'; }
+.icomoon.youtube:before { content: 'M'; }
+.icomoon.youtube-2:before { content: 'N'; }
+.icomoon.vimeo:before { content: 'O'; }
+.icomoon.vimeo-2:before { content: 'P'; }
+.icomoon.flickr:before { content: 'Q'; }
+.icomoon.flickr-2:before { content: 'R'; }
+.icomoon.picasa:before { content: 'S'; }
+.icomoon.picasa-2:before { content: 'T'; }
+.icomoon.dribble:before { content: 'U'; }
+.icomoon.Dribble-2:before { content: 'V'; }
+.icomoon.forrst:before { content: 'W'; }
+.icomoon.forrst-2:before { content: 'X'; }
+.icomoon.deviantart:before { content: 'Y'; }
+.icomoon.deviantart-2:before { content: 'Z'; }
+.icomoon.github:before { content: '['; }
+.icomoon.github-2:before { content: '\'; }
+.icomoon.github-3:before { content: ']'; }
+.icomoon.wordpress:before { content: '^'; }
+.icomoon.wordpress-2:before { content: '_'; }
+.icomoon.blogger:before { content: '`'; }
+.icomoon.blogger-2:before { content: 'a'; }
+.icomoon.tumblr:before { content: 'b'; }
+.icomoon.tumblr-2:before { content: 'c'; }
+.icomoon.yahoo:before { content: 'd'; }
+.icomoon.yahoo-2:before { content: 'e'; }
+.icomoon.amazon:before { content: 'f'; }
+.icomoon.amazon-2:before { content: 'g'; }
+.icomoon.windows:before { content: 'h'; }
+.icomoon.apple:before { content: 'i'; }
+.icomoon.soundcloud:before { content: 'j'; }
+.icomoon.soundcloud-2:before { content: 'k'; }
+.icomoon.skype:before { content: 'l'; }
+.icomoon.reddit:before { content: 'm'; }
+.icomoon.linkedin:before { content: 'n'; }
+.icomoon.lastfm:before { content: 'o'; }
+.icomoon.lastfm-2:before { content: 'p'; }
+.icomoon.delicious:before { content: 'q'; }
+.icomoon.html5:before { content: 'r'; }
+.icomoon.html5:before { content: 's'; }
+.icomoon.css3:before { content: 't'; }
+.icomoon.icomoon:before { content: 'u'; }
+.icon-Rlogo:before {
+    content: "\e90f";
+  }
