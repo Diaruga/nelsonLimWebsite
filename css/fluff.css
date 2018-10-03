@@ -1,0 +1,85 @@
+/*!
+ * Start Bootstrap - Scrolling Nav (http://startbootstrap.com/)
+ * Copyright 2013-2016 Start Bootstrap
+ * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap/blob/gh-pages/LICENSE)
+ */
+
+body {
+    width: 100%;
+    height: 100%;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+}
+
+html {
+    width: 100%;
+    height: 100%;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+p {
+    font-size: 20px;
+    text-align: left;
+}
+
+h1, h2, h3 {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+}
+
+hr {
+    width: 10%;
+    border-color: #A9A9A9;
+}
+dt {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+}
+
+dd {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    font-size: 20px;
+}
+
+@media (min-width: 1200px) {
+
+    .container {
+        padding: 0 200px;
+    }
+}
+
+.img-center {
+    margin: 0 auto;
+}
+
+.navbar-brand,
+.nav a{
+    font-size: 1.7em;
+}
+/* Demo Sections - You can use these as guides or delete them - the scroller will work with any sort of height, fixed, undefined, or percentage based.
+The padding is very important to make sure the scrollspy picks up the right area when scrolled to. Adjust the margin and padding of sections and children
+of those sections to manage the look and feel of the site. */
+
+.fff-section {
+    min-height: 100%;
+    padding-top: 150px;
+    text-align: center;
+    background: #fff;
+}
+
+.eee-section {
+    min-height: 100%;
+    padding-top: 150px;
+    text-align: center;
+    background: #eee;
+}
+
+footer {
+    background-color: #fff;
+    padding: 32px;
+}
