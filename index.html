@@ -19,7 +19,17 @@
     <!-- Custom styles for this template -->
     <link href="css/resume.min.css" rel="stylesheet">
   </head>
-	<script src="https://sdk.amazonaws.com/js/aws-sdk-2.41.0.min.js"></script>
+<!-- Lex Javascript -->
+
+<script src="https://lex-carigos-web-ui-codebuilddeploy-1-webappbucket-9kmk0kd1vxen.s3.amazonaws.com/lex-web-ui-loader.min.js"></script>
+<script>
+  var loaderOpts = {
+    baseUrl: 'https://lex-carigos-web-ui-codebuilddeploy-1-webappbucket-9kmk0kd1vxen.s3.amazonaws.com/'
+  };
+  var loader = new ChatBotUiLoader.IframeLoader(loaderOpts);
+  loader.load()
+    .catch(function (error) { console.error(error); });
+</script>
 	
   <body id="page-top">
 
@@ -288,16 +298,6 @@
       </section>
     </div>
 
-<h1 style="text-align:  left">Amazon Lex - BookTrip</h1>
-	<p style="width: 400px">
-		This little chatbot shows how easy it is to incorporate
-		<a href="https://aws.amazon.com/lex/" title="Amazon Lex (product)" target="_new">Amazon Lex</a> into your web pages.  Try it out.
-	</p>
-	<div id="conversation" style="width: 400px; height: 400px; border: 1px solid #ccc; background-color: #eee; padding: 4px; overflow: scroll"></div>
-	<form id="chatform" style="margin-top: 10px" onsubmit="return pushChat();">
-		<input type="text" id="wisdom" size="80" value="" placeholder="I need a hotel room">
-	</form>
-
     <!-- Bootstrap core JavaScript -->
     <script src="jquery/jquery.min.js"></script>
     <script src="bootstrap/js/bootstrap.bundle.min.js"></script>
@@ -307,19 +307,6 @@
 
     <!-- Custom scripts for this template -->
     <script src="js/resume.min.js"></script>
-
-
-<!-- Lex Javascript -->
-
-<script src="https://lex-carigos-web-ui-codebuilddeploy-1-webappbucket-9kmk0kd1vxen.s3.amazonaws.com/lex-web-ui-loader.min.js"></script>
-<script>
-  var loaderOpts = {
-    baseUrl: 'https://lex-carigos-web-ui-codebuilddeploy-1-webappbucket-9kmk0kd1vxen.s3.amazonaws.com/'
-  };
-  var loader = new ChatBotUiLoader.IframeLoader(loaderOpts);
-  loader.load()
-    .catch(function (error) { console.error(error); });
-</script>
 
   </body>
 
